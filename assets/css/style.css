@@ -22,14 +22,33 @@
     background-color: #525252;
 }
 
+/*--------------------------------------------special margin/padding/texts*/
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color:#fafafa;
+}
 
 /*--------------------------------------------Heading*/
 header {
     margin: 0;
 }
+
 .heading {
     margin-left: 50px;
 }
+
 .logo {
     background-image: url(../images/stephie.jpg);
     background-position: center;
@@ -68,9 +87,11 @@ header {
     font-size: 14px;
     padding: 0;
 }
+
 #nav {
     margin: 0;
 }
+
 .menuitem {
     height: 120px;
     text-align: center;
@@ -83,12 +104,14 @@ header {
     color: white;
     height: 120px
 }
+
 .menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
 }
+
 .menuitem span {
     display: block;
     width: 100%;
@@ -99,8 +122,20 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
 /*--------------------------------------------Hover.css*/
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/*--------------------------------------------Footer*/
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+}
+
+.inline-block {
+    display: inline-block;
 }
